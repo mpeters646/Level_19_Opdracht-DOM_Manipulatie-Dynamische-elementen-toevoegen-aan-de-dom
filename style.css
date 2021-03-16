@@ -5,7 +5,6 @@
 
 ul {
   list-style-type: none;
-
 }
 
 li {
@@ -16,34 +15,39 @@ button {
   width: 300px;
   height: 50px;
   margin: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  transition: all 500ms ease-in-out;
 }
 
-.big-five-list-item button{
+button:hover {
+  color: #fff;
+  background-color: #555;
+  border: 1px solid #555;
+  transform: scale(1.05);
+}
+
+.big-five-list-item button {
   width: 100px;
   height: 30px;
   margin: 0;
 }
 
-.spotted-animals-list-item {
-  color: rgb(0, 163, 0);
-}
-
 .spotted-animals-list-item::before {
-  content: "✔ ";
+  content: '✔ ';
+  color: rgb(0, 163, 0);
 }
 
 #remove-first-item-button,
 #remove-all-button {
   color: #ff0000;
-  background-color:transparent;
-  border: 2px solid #ff7272;
+  background-color: transparent;
+  border: 1px solid #ff7272;
   border-radius: 10px;
 }
 
 #remove-first-item-button:hover,
 #remove-all-button:hover {
   color: #fff;
-  background-color:#ff7272;
-  /* border: 2px solid #ff7272; */
-  /* border-radius: 12px; */
+  background-color: #ff7272;
 }

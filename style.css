@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
 .container {
+  font-family: 'Poppins', sans-serif;
   max-width: 768px;
   margin: 50px auto;
+}
+
+h1 {
+  font-weight: 300;
 }
 
 ul {
@@ -17,6 +24,7 @@ button {
   margin: 15px;
   border: 1px solid #eee;
   border-radius: 8px;
+  outline-color: #ccc;
   transition: all 500ms ease-in-out;
 }
 
@@ -26,6 +34,8 @@ button:hover {
   border: 1px solid #555;
   transform: scale(1.05);
 }
+
+button:outline {}
 
 .big-five-list-item button {
   width: 100px;

@@ -35,8 +35,6 @@ button:hover {
   transform: scale(1.05);
 }
 
-button:outline {}
-
 .big-five-list-item button {
   width: 100px;
   height: 30px;

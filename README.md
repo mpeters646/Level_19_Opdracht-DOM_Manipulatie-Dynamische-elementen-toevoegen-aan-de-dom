@@ -52,7 +52,8 @@ Gebruik de onderstaande HTML pagina en maak er je eigen script file aan vast.
 </html>
 ```
 
-##Deel 1 - Elementen toevoegen aan de DOM
+## Deel 1 - Elementen toevoegen aan de DOM
+
 Je bent op safari en gaat The Big Five spotten. Het enige dier dat je tot nu toe hebt gespot is een eend.
 
 **Opdracht:** Wanneer ik als gebruiker op een button van één van de Big 5 klik, wil ik dat die verschijnt in mijn lijstje met "animals spotted".

@@ -24,6 +24,7 @@ button {
   margin: 15px;
   border: 1px solid #eee;
   border-radius: 8px;
+  box-shadow: 0 2px 5px #555;
   outline-color: #ccc;
   transition: all 500ms ease-in-out;
 }
@@ -52,10 +53,17 @@ button:hover {
   background-color: transparent;
   border: 1px solid #ff7272;
   border-radius: 10px;
+  box-shadow: 0 2px 5px #ff7272;
 }
 
 #remove-first-item-button:hover,
 #remove-all-button:hover {
   color: #fff;
   background-color: #ff7272;
+}
+
+#remove-first-item-button:focus,
+#remove-all-button:focus {
+  outline-color: red;
+  box-shadow: 0 0 0 2px red;
 }
